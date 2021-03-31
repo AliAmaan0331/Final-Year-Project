@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.about{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    height:100%;
+    width:100.22%;
+    color:white;
+    background-color: #484848;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('imga.JPG');
+  }
+  .content{
+    margin:-10px;
+    background-color: #484848;
+    text-align: center;
+    width:100.79%;
+    height:100%;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('imga.JPG');
+  }
+  .mainbod{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('imga.JPG');
+  }
+  .aamdani{
+    color:#fcec00;
+  }
+  .comma{
+      font-size: 60px;
+  }
