@@ -1,0 +1,22 @@
+.login-form{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+    background-color: #484848;
+    color:white;
+  }
+.loginstyler{
+  background-color: #484848;
+  height:100vh;
+}
+.login-form h1{
+    color:#fcec00;
+}
+.loginbutton{
+    margin-top: 10px;
+}
+.text-center{
+  font-size: large;
+}
