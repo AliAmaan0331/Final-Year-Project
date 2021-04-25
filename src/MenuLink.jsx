@@ -8,6 +8,7 @@ const Container = styled.div`
     width: 100%;
     padding: 0.3rem;
     padding-left: 2rem;
+    color: Black;
     cursor: pointer;
     display: flex;
     flex-direction: row;
