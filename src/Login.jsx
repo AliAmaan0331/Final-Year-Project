@@ -25,7 +25,7 @@ const Login = () =>{
             }
             
         })
-    }
+}
     return (
         <div className="loginstyler">
         <Form className="login-form">

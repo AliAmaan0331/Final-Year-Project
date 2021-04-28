@@ -1,0 +1,23 @@
+#intro{
+    text-align: center;
+}
+.picmajor{
+    height:300px;
+    width:300px;
+}
+.picminor{
+    height:100px;
+    width:100px;
+}
+.search-box{
+    width:420px;
+    height: 30px;
+    margin-top:5px;
+    margin-left: 5px;
+    background-color: #2f3640;
+    color:white;
+}
+.searchtxt{
+    margin-left: 5px;
+}
+

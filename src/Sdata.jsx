@@ -6,28 +6,34 @@ const Sdata = [
     {
         imgsrc: content1,
         title: "Content Writing",
+        linkk:'#c1'
     },
 
     {
         imgsrc: content2,
-        title: "Content Writing",
+        title: "PHP",
+        linkk:'#c2'
     },
     {
         imgsrc: panda,
-        title: "Content Writing",
+        title: "HTML and CSS",
+        linkk:'#c3'
     },
     {
         imgsrc: content1,
-        title: "Content Writing",
+        title: "Search Engine Optimization",
+        linkk:'#c4'
     },
 
     {
         imgsrc: content2,
-        title: "Content Writing",
+        title: "Solid Works",
+        linkk:'#c5'
     },
     {
         imgsrc: panda,
-        title: "Content Writing",
+        title: "Graphic Designing",
+        linkk:'#c6'
     },
 
 

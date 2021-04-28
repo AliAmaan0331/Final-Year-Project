@@ -10,7 +10,8 @@ import Service from './Service';
 import Login from './Login';
 import Signup from './Signup';
 import Dashboard from './Dashboard';
-import Forgetpassword from './Forgetpassword'
+import Forgetpassword from './Forgetpassword';
+import Gig from './Gig';
 
 const App = () =>{
     return (
@@ -26,6 +27,7 @@ const App = () =>{
             <Route exact path="/Signup" component={Signup} />
             <Route exact path="/Forgetpassword" component={Forgetpassword} />
             <Route exact path="/Dashboard" component={Dashboard}/>
+            <Route exact path="/gig" component={Gig} />
             <Redirect to="/" />
             </Switch>
             </BrowserRouter>
