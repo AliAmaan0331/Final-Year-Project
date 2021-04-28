@@ -31,9 +31,6 @@ const NavBar = () => {
         <li className="nav-item">
           <NavLink activeClassName='menu_active' className="nav-link new" aria-current="page" to="/Login">Login</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink activeClassName='menu_active' className="nav-link new" aria-current="page" to="/Signup">Signup</NavLink>
-        </li>
       </ul>
     </div>
   </div>

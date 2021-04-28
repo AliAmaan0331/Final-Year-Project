@@ -8,7 +8,7 @@ const Container = styled.div`
     width: 100%;
 `
 
-const Menu = () => {
+const Menu = ({handleLogout}) => {
     return (
         <Container>
             <MenuLink title="Dashboard" icon={'home'}/>
@@ -16,6 +16,7 @@ const Menu = () => {
             <MenuLink title="Buyer requests" icon={'gift'}/>
             <MenuLink title="Payments" icon={'bank'}/>
             <MenuLink title="Settings" icon={'cog'} />
+            <button  className="btn btn-dark btn-sm btn-block" onClick={handleLogout}>Logout</button>
         </Container>
     )
 }
