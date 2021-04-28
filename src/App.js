@@ -13,6 +13,7 @@ import Dashboard from './Dashboard';
 import Forgetpassword from './Forgetpassword'
 import {db} from "./firebase";
 import { useEffect, useState } from 'react';
+import Gig from './Gig.jsx'
 
 const App = () =>{
     const [user,setUser] = useState('');
@@ -97,12 +98,14 @@ const App = () =>{
             <Route exact path="/Service" component={Service} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/Signup" component={Signup} />
+            <Route exact path="/Gig" component={Gig}/>
             <Route exact path="/Forgetpassword" component={Forgetpassword} />
             {
                 user ? (
                     <>
-                    <Route exact path="/Dashboard" render={(props) =><Dashboard handleLogout={handleLogout}/>}/>
-                    <Redirect to="/Dashboard" render={(props) =><Dashboard handleLogout={handleLogout}/>}/>
+                    <Route exact path="/Dashboard" render={(props) =><Dashboard handleLogout={handleLogout} email={email}/>}/>
+                    <Redirect to="/Dashboard" render={(props) =><Dashboard handleLogout={handleLogout}
+                    email={email}/>}/>
                     </>
                 ) : (
             

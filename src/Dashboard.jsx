@@ -5,14 +5,15 @@ import React from 'react'
 import SideBar from './Sidebar'
 import Main from './Main'
 
-const Dashboard = ({handleLogout}) => {
+const Dashboard = ({handleLogout,email}) => {
     return (
         <div>
                 
-            <SideBar handleLogout={handleLogout}/> 
+            <SideBar handleLogout={handleLogout}
+            email={email}/> 
             
             <Main/>
-            <button onClick={handleLogout}>Logout</button> 
+            
         </div>
     )
 }

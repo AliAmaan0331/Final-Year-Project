@@ -15,11 +15,11 @@ const ProfileName = styled.h1`
     color: ${({ theme }) => theme.textColor};
 `
 
-const Profile = () => {
+const Profile = ({email}) => {
     return (
         <Container>
             <ProfileImg src={Image} />
-            <ProfileName>Scott Grant</ProfileName>
+            <ProfileName >{email}</ProfileName>
         </Container>
     )
 }

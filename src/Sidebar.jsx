@@ -17,11 +17,11 @@ const Container = styled.div`
     align-items: center;
 `
 
-const Sidebar = ({handleLogout}) => {
+const Sidebar = ({handleLogout,email}) => {
 
     return (
         <Container className="sidebar">
-            <Profile />
+            <Profile email={email}/>
             <Menu handleLogout={handleLogout}/>
             <ToggleSwitch />
         </Container>
